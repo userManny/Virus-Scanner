@@ -1,13 +1,11 @@
-🦠 Virus Scanner Game
+# 🦠 Virus Scanner Game
 
 An interactive grid-based puzzle game inspired by Minesweeper, built using React.
 Scan files, detect hidden viruses, and secure the system without triggering infection.
 
-🚀 Live Demo
+---
 
-[([Add your deployed link here — e.g. Vercel](https://virus-scanner-three.vercel.app/))
-
-🎮 Features
+## 🎮 Features
 🧠 Smart Grid Logic – Dynamic virus placement with guaranteed safe first click
 🔍 Recursive Reveal (Flood Fill) – Automatically reveals safe zones
 🎯 Scoring System – Tracks correctly identified infected files
@@ -16,46 +14,42 @@ Scan files, detect hidden viruses, and secure the system without triggering infe
 🚩 Flagging Mechanism – Mark suspicious files
 🎨 Modern UI – Violet-blue theme with hover effects and transitions
 ⚛️ React-Based Architecture – Component-driven design using hooks
-🛠️ Tech Stack
+
+---
+
+## 🛠️ Tech Stack
 Frontend: React (Hooks: useState, useEffect)
 Styling: CSS (Grid, animations, transitions)
 Build Tool: Vite
-🧩 How It Works
-The grid contains hidden viruses randomly distributed
-The first click is always safe, with a protected 3×3 area
-Each cell shows the number of infected neighbors
-Use logic to avoid viruses and reveal all safe cells
-Flag suspected infected files to increase your score
-🎯 Gameplay Rules
+
+---
+
+## 🧩 How It Works
+The grid contains hidden viruses randomly distributed.
+The first click is always safe, with a protected 3×3 area.
+Each cell shows the number of infected neighbors.
+Use logic to avoid viruses and reveal all safe cells.
+Flag suspected infected files to increase your score.
+
+---
+
+## 🚀 Live Demo
+👉 https://virus-scanner-three.vercel.app/
+
+---
+
+## 🎯 Gameplay Rules
 Left click → Reveal a file
 Right click → Flag a file
 Numbers indicate nearby infected files
 Reveal all safe files to win
 Clicking a virus results in system failure
-📸 Screenshots
 
-(Add screenshots here for better impact)
+---
 
-⚙️ Installation & Setup
-git clone https://github.com/userManny/Virus-Scanner.git
-cd virus-scanner
-npm install
-npm run dev
-📈 Future Improvements
-🎚 Difficulty Levels (Easy / Medium / Hard)
-🏆 Leaderboard using localStorage
-🔊 Sound effects and feedback
-📱 Mobile responsiveness
-🤖 Adaptive difficulty
-💡 Learning Highlights
-Implemented grid-based algorithms and recursion
-Managed UI state using React hooks
-Designed interactive and responsive UI
-Ensured fair gameplay with controlled randomness
-👨‍💻 Author
+## ⚙️ Installation & Setup
 
-Maneesh Kumar
-
-⭐ Show Your Support
-
-If you like this project, give it a ⭐ on GitHub!
+ Clone the repository git clone:  https://github.com/userManny/Virus-Scanner.git
+ Navigate into project            cd virus-scanner
+ Install dependencies             npm install
+ Run development server           npm run dev
