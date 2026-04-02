@@ -4,7 +4,7 @@ An interactive grid-based puzzle game inspired by Minesweeper, built using React
 Scan files, detect hidden viruses, and secure the system without triggering infection.
 
 🚀 Live Demo
-https://virus-scanner-three.vercel.app/[Play Online}
+https://virus-scanner-three.vercel.app/ [[Play Online}]
 
 
 🎮 Features
